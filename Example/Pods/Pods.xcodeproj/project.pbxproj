@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A84A42FE1B4589945BB96BC5E91B6EE /* Pods-LBNCoreDataStack_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4130FB470A938207204AC9A9E8E26881 /* Pods-LBNCoreDataStack_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		196A57CC4EE95EBB360F1B49F0370B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		29F219BAFE70EA9348520B751D185B7F /* LBNCoreDataStack.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE67C584F519B6D0C7D53E729A57C5F3 /* LBNCoreDataStack.bundle */; };
+		2F2D72020335EAFD6E91B415BBF56595 /* LBNCoreDataStack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 340E3896ECFFD3C2491F99147EB3A053 /* LBNCoreDataStack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EBAEF7BA223A6EFABB492CDDB2E1E05 /* Pods-LBNCoreDataStack_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C93FFF37BBD94CEAB44EBE6982A207F7 /* Pods-LBNCoreDataStack_Tests-dummy.m */; };
+		84F626E94963F4F1A1F5BEEAAD37BA03 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BDCC84716B94B5E018C9F5CB5A318D /* ReplaceMe.m */; };
+		9E3C3E25EC788F000145FA347A0AF48B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E7C0C1919F1BC4180ED8AF8F8DE6B71B /* LBNCoreDataStack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7551AE5AA042215D9E632AF05B13FDA /* LBNCoreDataStack-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FFD2F08BFF810ECF1830E468CF886C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964A77D0542564F4CEFA939F5384D956;
+			remoteInfo = LBNCoreDataStack;
+		};
+		E7B4245A90E5D93E8718279DE31B8A62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A29CE4CB3DC808A3948BFD12921D0E5;
+			remoteInfo = "LBNCoreDataStack-LBNCoreDataStack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21F07A76237E66BD1C10BAB33A239B5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF4140342F1D44B370A1BA123BF6E9D /* Pods-LBNCoreDataStack_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBNCoreDataStack_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		33722AAD20DF4490F0AEF6B402B94172 /* LBNCoreDataStack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBNCoreDataStack.xcconfig; sourceTree = "<group>"; };
+		340E3896ECFFD3C2491F99147EB3A053 /* LBNCoreDataStack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBNCoreDataStack-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4130FB470A938207204AC9A9E8E26881 /* Pods-LBNCoreDataStack_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBNCoreDataStack_Tests-umbrella.h"; sourceTree = "<group>"; };
+		487E974B732E8963406F9CDA523AC1F0 /* Pods-LBNCoreDataStack_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LBNCoreDataStack_Tests.modulemap"; sourceTree = "<group>"; };
+		697C8DD910BF15600BA5DD1B3BFBDE7C /* LBNCoreDataStack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LBNCoreDataStack.modulemap; sourceTree = "<group>"; };
+		76BDCC84716B94B5E018C9F5CB5A318D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		805FF248AF6B48745D408F26510ECCE7 /* Pods_LBNCoreDataStack_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBNCoreDataStack_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4A8F576B0FEC2E83C84D39CC985DE0 /* Pods-LBNCoreDataStack_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBNCoreDataStack_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9D6A0FB204BAA30C43690BB2E85E20AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7551AE5AA042215D9E632AF05B13FDA /* LBNCoreDataStack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBNCoreDataStack-dummy.m"; sourceTree = "<group>"; };
+		AE67C584F519B6D0C7D53E729A57C5F3 /* LBNCoreDataStack.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBNCoreDataStack.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42FACB6A37E964CDE746DF2068C0524 /* LBNCoreDataStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBNCoreDataStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C23534D9223B8D24ACF37F7D13EB7A73 /* LBNCoreDataStack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBNCoreDataStack-prefix.pch"; sourceTree = "<group>"; };
+		C93FFF37BBD94CEAB44EBE6982A207F7 /* Pods-LBNCoreDataStack_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBNCoreDataStack_Tests-dummy.m"; sourceTree = "<group>"; };
+		E52DA5B8ADA20DFF58D939282E21F0B7 /* Pods-LBNCoreDataStack_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBNCoreDataStack_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0E19CEC54B00944680D212C5F60DB3A /* Pods-LBNCoreDataStack_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBNCoreDataStack_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5E16F46AC0E9B41D0C0332F7964886E /* Pods-LBNCoreDataStack_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBNCoreDataStack_Tests-resources.sh"; sourceTree = "<group>"; };
+		FB907CF62B68AB9B1DF7B10D685594E9 /* Pods-LBNCoreDataStack_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBNCoreDataStack_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DB2CABED0AC1EDFFBE24130DF3AAA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196A57CC4EE95EBB360F1B49F0370B69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76593B2B8096CB9A81D56908010D5EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3C3E25EC788F000145FA347A0AF48B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AC134B0EB56D99A45626F5E8D1FD9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29882DFFA5EC78D69B51623116F39C94 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F07A76237E66BD1C10BAB33A239B5F /* Info.plist */,
+				697C8DD910BF15600BA5DD1B3BFBDE7C /* LBNCoreDataStack.modulemap */,
+				33722AAD20DF4490F0AEF6B402B94172 /* LBNCoreDataStack.xcconfig */,
+				A7551AE5AA042215D9E632AF05B13FDA /* LBNCoreDataStack-dummy.m */,
+				C23534D9223B8D24ACF37F7D13EB7A73 /* LBNCoreDataStack-prefix.pch */,
+				340E3896ECFFD3C2491F99147EB3A053 /* LBNCoreDataStack-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LBNCoreDataStack";
+			sourceTree = "<group>";
+		};
+		2BC1B227CFB7A9D76FD1D04ECAEF27C8 /* LBNCoreDataStack */ = {
+			isa = PBXGroup;
+			children = (
+				8F0D000768D921A679A9336F2296CD61 /* Pod */,
+				29882DFFA5EC78D69B51623116F39C94 /* Support Files */,
+			);
+			name = LBNCoreDataStack;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		719435CEB6E063201F220EE4766FD7CC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1B227CFB7A9D76FD1D04ECAEF27C8 /* LBNCoreDataStack */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		72D6C9D9B4514BB2AEFD3ED21CBE23A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76BDCC84716B94B5E018C9F5CB5A318D /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		79ED2492FE6D295B27FF7A09A3EF6BB1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C50A7211943595D870EF10A318B65B7D /* Pods-LBNCoreDataStack_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				719435CEB6E063201F220EE4766FD7CC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D04D6D31E81F892ECFC6D26970D960BC /* Products */,
+				79ED2492FE6D295B27FF7A09A3EF6BB1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F0D000768D921A679A9336F2296CD61 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				72D6C9D9B4514BB2AEFD3ED21CBE23A2 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C50A7211943595D870EF10A318B65B7D /* Pods-LBNCoreDataStack_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9D6A0FB204BAA30C43690BB2E85E20AE /* Info.plist */,
+				487E974B732E8963406F9CDA523AC1F0 /* Pods-LBNCoreDataStack_Tests.modulemap */,
+				FB907CF62B68AB9B1DF7B10D685594E9 /* Pods-LBNCoreDataStack_Tests-acknowledgements.markdown */,
+				F0E19CEC54B00944680D212C5F60DB3A /* Pods-LBNCoreDataStack_Tests-acknowledgements.plist */,
+				C93FFF37BBD94CEAB44EBE6982A207F7 /* Pods-LBNCoreDataStack_Tests-dummy.m */,
+				8C4A8F576B0FEC2E83C84D39CC985DE0 /* Pods-LBNCoreDataStack_Tests-frameworks.sh */,
+				F5E16F46AC0E9B41D0C0332F7964886E /* Pods-LBNCoreDataStack_Tests-resources.sh */,
+				4130FB470A938207204AC9A9E8E26881 /* Pods-LBNCoreDataStack_Tests-umbrella.h */,
+				E52DA5B8ADA20DFF58D939282E21F0B7 /* Pods-LBNCoreDataStack_Tests.debug.xcconfig */,
+				2CF4140342F1D44B370A1BA123BF6E9D /* Pods-LBNCoreDataStack_Tests.release.xcconfig */,
+			);
+			name = "Pods-LBNCoreDataStack_Tests";
+			path = "Target Support Files/Pods-LBNCoreDataStack_Tests";
+			sourceTree = "<group>";
+		};
+		D04D6D31E81F892ECFC6D26970D960BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE67C584F519B6D0C7D53E729A57C5F3 /* LBNCoreDataStack.bundle */,
+				B42FACB6A37E964CDE746DF2068C0524 /* LBNCoreDataStack.framework */,
+				805FF248AF6B48745D408F26510ECCE7 /* Pods_LBNCoreDataStack_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		035AE190E610E164E0EBBE5E8B6D6C24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2D72020335EAFD6E91B415BBF56595 /* LBNCoreDataStack-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE97C67081D45F04E3EC9A76B60CF4A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A84A42FE1B4589945BB96BC5E91B6EE /* Pods-LBNCoreDataStack_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A29CE4CB3DC808A3948BFD12921D0E5 /* LBNCoreDataStack-LBNCoreDataStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9299AF262339DC1A4EF6BC0296221E05 /* Build configuration list for PBXNativeTarget "LBNCoreDataStack-LBNCoreDataStack" */;
+			buildPhases = (
+				8FD70C74332A80252D1F0FEF195B2FCF /* Sources */,
+				89AC134B0EB56D99A45626F5E8D1FD9B /* Frameworks */,
+				37BEE9F22A93C35BDA26E3136F804BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LBNCoreDataStack-LBNCoreDataStack";
+			productName = "LBNCoreDataStack-LBNCoreDataStack";
+			productReference = AE67C584F519B6D0C7D53E729A57C5F3 /* LBNCoreDataStack.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		964A77D0542564F4CEFA939F5384D956 /* LBNCoreDataStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD32BB143F1F8490AC9AB187AD6C18D /* Build configuration list for PBXNativeTarget "LBNCoreDataStack" */;
+			buildPhases = (
+				E7F57328748E785F6EB83B0FE4DC192D /* Sources */,
+				25DB2CABED0AC1EDFFBE24130DF3AAA6 /* Frameworks */,
+				914A8B6C7B490D1E679C232A1FABC876 /* Resources */,
+				035AE190E610E164E0EBBE5E8B6D6C24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002261D84EDA436259B0A3E80C73101C /* PBXTargetDependency */,
+			);
+			name = LBNCoreDataStack;
+			productName = LBNCoreDataStack;
+			productReference = B42FACB6A37E964CDE746DF2068C0524 /* LBNCoreDataStack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B19AD4358A8BBD486B9185CD8A8C27E /* Pods-LBNCoreDataStack_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1C616BABD8AF6A0B4446A69377515A /* Build configuration list for PBXNativeTarget "Pods-LBNCoreDataStack_Tests" */;
+			buildPhases = (
+				E05A4BEEB033415C013EDD824FAD1285 /* Sources */,
+				76593B2B8096CB9A81D56908010D5EB9 /* Frameworks */,
+				DE97C67081D45F04E3EC9A76B60CF4A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73EFD303D7E7BFBDB0AA12BCB85A15AB /* PBXTargetDependency */,
+			);
+			name = "Pods-LBNCoreDataStack_Tests";
+			productName = "Pods-LBNCoreDataStack_Tests";
+			productReference = 805FF248AF6B48745D408F26510ECCE7 /* Pods_LBNCoreDataStack_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D04D6D31E81F892ECFC6D26970D960BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				964A77D0542564F4CEFA939F5384D956 /* LBNCoreDataStack */,
+				3A29CE4CB3DC808A3948BFD12921D0E5 /* LBNCoreDataStack-LBNCoreDataStack */,
+				9B19AD4358A8BBD486B9185CD8A8C27E /* Pods-LBNCoreDataStack_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37BEE9F22A93C35BDA26E3136F804BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914A8B6C7B490D1E679C232A1FABC876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F219BAFE70EA9348520B751D185B7F /* LBNCoreDataStack.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FD70C74332A80252D1F0FEF195B2FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05A4BEEB033415C013EDD824FAD1285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBAEF7BA223A6EFABB492CDDB2E1E05 /* Pods-LBNCoreDataStack_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F57328748E785F6EB83B0FE4DC192D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C0C1919F1BC4180ED8AF8F8DE6B71B /* LBNCoreDataStack-dummy.m in Sources */,
+				84F626E94963F4F1A1F5BEEAAD37BA03 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002261D84EDA436259B0A3E80C73101C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LBNCoreDataStack-LBNCoreDataStack";
+			target = 3A29CE4CB3DC808A3948BFD12921D0E5 /* LBNCoreDataStack-LBNCoreDataStack */;
+			targetProxy = E7B4245A90E5D93E8718279DE31B8A62 /* PBXContainerItemProxy */;
+		};
+		73EFD303D7E7BFBDB0AA12BCB85A15AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBNCoreDataStack;
+			target = 964A77D0542564F4CEFA939F5384D956 /* LBNCoreDataStack */;
+			targetProxy = 7FFD2F08BFF810ECF1830E468CF886C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3ECA48A8B1110F30D362B102C114DA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF4140342F1D44B370A1BA123BF6E9D /* Pods-LBNCoreDataStack_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LBNCoreDataStack_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LBNCoreDataStack_Tests/Pods-LBNCoreDataStack_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LBNCoreDataStack_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		533CFF95972AFE7B72819009DCC92B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33722AAD20DF4490F0AEF6B402B94172 /* LBNCoreDataStack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LBNCoreDataStack/LBNCoreDataStack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBNCoreDataStack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBNCoreDataStack/LBNCoreDataStack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LBNCoreDataStack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63A2EE0D6BF9EF556B0AF85BD4F0076B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52DA5B8ADA20DFF58D939282E21F0B7 /* Pods-LBNCoreDataStack_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LBNCoreDataStack_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LBNCoreDataStack_Tests/Pods-LBNCoreDataStack_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LBNCoreDataStack_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2BA178619678C8CC5215F03D99C2769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33722AAD20DF4490F0AEF6B402B94172 /* LBNCoreDataStack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LBNCoreDataStack/LBNCoreDataStack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBNCoreDataStack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBNCoreDataStack/LBNCoreDataStack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LBNCoreDataStack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE1FDD609101D469B0DDABC331A013D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33722AAD20DF4490F0AEF6B402B94172 /* LBNCoreDataStack.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LBNCoreDataStack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F495141C7A568998914218A71B76C76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33722AAD20DF4490F0AEF6B402B94172 /* LBNCoreDataStack.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LBNCoreDataStack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1C616BABD8AF6A0B4446A69377515A /* Build configuration list for PBXNativeTarget "Pods-LBNCoreDataStack_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A2EE0D6BF9EF556B0AF85BD4F0076B /* Debug */,
+				3ECA48A8B1110F30D362B102C114DA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9299AF262339DC1A4EF6BC0296221E05 /* Build configuration list for PBXNativeTarget "LBNCoreDataStack-LBNCoreDataStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F495141C7A568998914218A71B76C76B /* Debug */,
+				DE1FDD609101D469B0DDABC331A013D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD32BB143F1F8490AC9AB187AD6C18D /* Build configuration list for PBXNativeTarget "LBNCoreDataStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533CFF95972AFE7B72819009DCC92B0A /* Debug */,
+				C2BA178619678C8CC5215F03D99C2769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

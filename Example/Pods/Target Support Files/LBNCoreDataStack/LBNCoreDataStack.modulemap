@@ -1,0 +1,6 @@
+framework module LBNCoreDataStack {
+  umbrella header "LBNCoreDataStack-umbrella.h"
+
+  export *
+  module * { export * }
+}
