@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "LBNCoreDataStack"
   s.version          = "0.0.1"
-  s.summary          = "This lib is meant to substitute Core Data methods from AppDelegate and encapsulates it in its own class accessible as a singleton with sharedStack method."
+  s.summary          = "Substitute Core Data methods from AppDelegate and encapsulates it in its own class accessible as a singleton with sharedStack method."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
