@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LBNCoreDataStack: d8f09e68d1d2b676cbd5b7a2889e2a9d515512dc
+  LBNCoreDataStack: 14c83c9edc2626af1c763ed949dc679d369bd882
 
 COCOAPODS: 0.39.0

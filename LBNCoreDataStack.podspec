@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "LBNCoreDataStack"
-  s.version          = "0.0.1"
-  s.summary          = "Substitute Core Data methods from AppDelegate and encapsulates it in its own class accessible as a singleton with sharedStack method."
+  s.version          = "0.1.0"
+  s.summary          = "Remove all Core Data template methods from AppDelegate and use this to access those methods from anywhere in your project in a neat way."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-With this lib you can remove all the Core Data template methods from your AppDelegate and use this lib as a singleton to access those methods from anyware in your project in a neat way.
+Substitute Core Data methods from AppDelegate and encapsulates it in its own class. This class is accessible as a singleton from sharedStack method.
+Also available a persistence class to handle most of the more common operetions as insert and delete from CoreData.
                        DESC
 
   s.homepage         = "https://github.com/sciasxp/LBNCoreDataStack"
@@ -37,5 +38,5 @@ With this lib you can remove all the Core Data template methods from your AppDel
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'LBNTools', '~> 0.0'
 end

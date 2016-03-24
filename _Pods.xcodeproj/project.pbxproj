@@ -7,33 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0065A8F5309B9F0CF26F935D00ED68EB /* LBNPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2447023EEB0858CC78BD3E85144F70 /* LBNPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02C16E68B09F1D9A50F8E88BF08D9B82 /* LBNCoreDataStack.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE67C584F519B6D0C7D53E729A57C5F3 /* LBNCoreDataStack.bundle */; };
 		0A84A42FE1B4589945BB96BC5E91B6EE /* Pods-LBNCoreDataStack_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4130FB470A938207204AC9A9E8E26881 /* Pods-LBNCoreDataStack_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C5739675B9214090981D965FE1922DB /* LBNCoreDataStack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 340E3896ECFFD3C2491F99147EB3A053 /* LBNCoreDataStack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		196A57CC4EE95EBB360F1B49F0370B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		29F219BAFE70EA9348520B751D185B7F /* LBNCoreDataStack.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE67C584F519B6D0C7D53E729A57C5F3 /* LBNCoreDataStack.bundle */; };
+		2F2D72020335EAFD6E91B415BBF56595 /* LBNCoreDataStack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 340E3896ECFFD3C2491F99147EB3A053 /* LBNCoreDataStack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EBAEF7BA223A6EFABB492CDDB2E1E05 /* Pods-LBNCoreDataStack_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C93FFF37BBD94CEAB44EBE6982A207F7 /* Pods-LBNCoreDataStack_Tests-dummy.m */; };
-		6A4EB662A48FFBF17C7F657BD8273A59 /* LBNPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = C90EA2D71F475BAC03B8E8B23AFCE9F9 /* LBNPersistence.m */; };
-		807A8547C656824B0FB1CD0C916EEAC9 /* LBNCoreDataStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A557F88DFF65DB99B3B8705B03201F6 /* LBNCoreDataStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		901F0BF2B2ACBC2061FE9DD81054DB23 /* LBNCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F625E6DB54AF2D83C942199B9B3B968C /* LBNCoreDataStack.m */; };
 		9E3C3E25EC788F000145FA347A0AF48B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		AFE49445B7BEDD5923F6C81C3FBF0C3D /* LBNCoreDataStack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7551AE5AA042215D9E632AF05B13FDA /* LBNCoreDataStack-dummy.m */; };
-		B95574E21DBB5A8D28015DE9A30F437D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BE6864B31BD586ED001DC266 /* LBNCoreDataStack.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6864B11BD586ED001DC266 /* LBNCoreDataStack.h */; settings = {ASSET_TAGS = (); }; };
+		BE6864B41BD586ED001DC266 /* LBNCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6864B21BD586ED001DC266 /* LBNCoreDataStack.m */; settings = {ASSET_TAGS = (); }; };
+		E7C0C1919F1BC4180ED8AF8F8DE6B71B /* LBNCoreDataStack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7551AE5AA042215D9E632AF05B13FDA /* LBNCoreDataStack-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		51A685C33F4A4905D5F4389AA065DB63 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CBCFA7F3C959DD308C9518B089991621;
-			remoteInfo = "LBNCoreDataStack-LBNCoreDataStack";
-		};
 		7FFD2F08BFF810ECF1830E468CF886C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A63D538A22FE3D416FDD50231F7F6FF3;
+			remoteGlobalIDString = 964A77D0542564F4CEFA939F5384D956;
 			remoteInfo = LBNCoreDataStack;
+		};
+		E7B4245A90E5D93E8718279DE31B8A62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A29CE4CB3DC808A3948BFD12921D0E5;
+			remoteInfo = "LBNCoreDataStack-LBNCoreDataStack";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -42,12 +40,10 @@
 		2CF4140342F1D44B370A1BA123BF6E9D /* Pods-LBNCoreDataStack_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBNCoreDataStack_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		33722AAD20DF4490F0AEF6B402B94172 /* LBNCoreDataStack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBNCoreDataStack.xcconfig; sourceTree = "<group>"; };
 		340E3896ECFFD3C2491F99147EB3A053 /* LBNCoreDataStack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBNCoreDataStack-umbrella.h"; sourceTree = "<group>"; };
-		3A557F88DFF65DB99B3B8705B03201F6 /* LBNCoreDataStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LBNCoreDataStack.h; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4130FB470A938207204AC9A9E8E26881 /* Pods-LBNCoreDataStack_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBNCoreDataStack_Tests-umbrella.h"; sourceTree = "<group>"; };
 		487E974B732E8963406F9CDA523AC1F0 /* Pods-LBNCoreDataStack_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LBNCoreDataStack_Tests.modulemap"; sourceTree = "<group>"; };
 		697C8DD910BF15600BA5DD1B3BFBDE7C /* LBNCoreDataStack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LBNCoreDataStack.modulemap; sourceTree = "<group>"; };
-		7D2447023EEB0858CC78BD3E85144F70 /* LBNPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LBNPersistence.h; sourceTree = "<group>"; };
 		805FF248AF6B48745D408F26510ECCE7 /* Pods_LBNCoreDataStack_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBNCoreDataStack_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4A8F576B0FEC2E83C84D39CC985DE0 /* Pods-LBNCoreDataStack_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBNCoreDataStack_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9D6A0FB204BAA30C43690BB2E85E20AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,21 +51,22 @@
 		AE67C584F519B6D0C7D53E729A57C5F3 /* LBNCoreDataStack.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBNCoreDataStack.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42FACB6A37E964CDE746DF2068C0524 /* LBNCoreDataStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBNCoreDataStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE6864B11BD586ED001DC266 /* LBNCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBNCoreDataStack.h; sourceTree = "<group>"; };
+		BE6864B21BD586ED001DC266 /* LBNCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBNCoreDataStack.m; sourceTree = "<group>"; };
 		C23534D9223B8D24ACF37F7D13EB7A73 /* LBNCoreDataStack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBNCoreDataStack-prefix.pch"; sourceTree = "<group>"; };
-		C90EA2D71F475BAC03B8E8B23AFCE9F9 /* LBNPersistence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LBNPersistence.m; sourceTree = "<group>"; };
 		C93FFF37BBD94CEAB44EBE6982A207F7 /* Pods-LBNCoreDataStack_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBNCoreDataStack_Tests-dummy.m"; sourceTree = "<group>"; };
 		E52DA5B8ADA20DFF58D939282E21F0B7 /* Pods-LBNCoreDataStack_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBNCoreDataStack_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F0E19CEC54B00944680D212C5F60DB3A /* Pods-LBNCoreDataStack_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBNCoreDataStack_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F5E16F46AC0E9B41D0C0332F7964886E /* Pods-LBNCoreDataStack_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBNCoreDataStack_Tests-resources.sh"; sourceTree = "<group>"; };
-		F625E6DB54AF2D83C942199B9B3B968C /* LBNCoreDataStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LBNCoreDataStack.m; sourceTree = "<group>"; };
 		FB907CF62B68AB9B1DF7B10D685594E9 /* Pods-LBNCoreDataStack_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBNCoreDataStack_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		373F3FB98A8C626886EE4F3D0249D623 /* Frameworks */ = {
+		25DB2CABED0AC1EDFFBE24130DF3AAA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				196A57CC4EE95EBB360F1B49F0370B69 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,11 +78,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79779BB85884875C753B2BF7C19AB032 /* Frameworks */ = {
+		89AC134B0EB56D99A45626F5E8D1FD9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B95574E21DBB5A8D28015DE9A30F437D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +105,7 @@
 		2BC1B227CFB7A9D76FD1D04ECAEF27C8 /* LBNCoreDataStack */ = {
 			isa = PBXGroup;
 			children = (
-				F68685BE78A11E282D92BEA4153E3C7A /* Pod */,
+				8F0D000768D921A679A9336F2296CD61 /* Pod */,
 				29882DFFA5EC78D69B51623116F39C94 /* Support Files */,
 			);
 			name = LBNCoreDataStack;
@@ -122,6 +118,15 @@
 				2BC1B227CFB7A9D76FD1D04ECAEF27C8 /* LBNCoreDataStack */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		72D6C9D9B4514BB2AEFD3ED21CBE23A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE6864B11BD586ED001DC266 /* LBNCoreDataStack.h */,
+				BE6864B21BD586ED001DC266 /* LBNCoreDataStack.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		79ED2492FE6D295B27FF7A09A3EF6BB1 /* Targets Support Files */ = {
@@ -141,6 +146,14 @@
 				D04D6D31E81F892ECFC6D26970D960BC /* Products */,
 				79ED2492FE6D295B27FF7A09A3EF6BB1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8F0D000768D921A679A9336F2296CD61 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				72D6C9D9B4514BB2AEFD3ED21CBE23A2 /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -187,28 +200,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D10FB739ED1B67EA1F1F9AA03D393899 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3A557F88DFF65DB99B3B8705B03201F6 /* LBNCoreDataStack.h */,
-				F625E6DB54AF2D83C942199B9B3B968C /* LBNCoreDataStack.m */,
-				7D2447023EEB0858CC78BD3E85144F70 /* LBNPersistence.h */,
-				C90EA2D71F475BAC03B8E8B23AFCE9F9 /* LBNPersistence.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		F68685BE78A11E282D92BEA4153E3C7A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D10FB739ED1B67EA1F1F9AA03D393899 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		035AE190E610E164E0EBBE5E8B6D6C24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6864B31BD586ED001DC266 /* LBNCoreDataStack.h in Headers */,
+				2F2D72020335EAFD6E91B415BBF56595 /* LBNCoreDataStack-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE97C67081D45F04E3EC9A76B60CF4A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,19 +220,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD6C9BBF917FF5BF31FA3A6DFD878607 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C5739675B9214090981D965FE1922DB /* LBNCoreDataStack-umbrella.h in Headers */,
-				807A8547C656824B0FB1CD0C916EEAC9 /* LBNCoreDataStack.h in Headers */,
-				0065A8F5309B9F0CF26F935D00ED68EB /* LBNPersistence.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3A29CE4CB3DC808A3948BFD12921D0E5 /* LBNCoreDataStack-LBNCoreDataStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9299AF262339DC1A4EF6BC0296221E05 /* Build configuration list for PBXNativeTarget "LBNCoreDataStack-LBNCoreDataStack" */;
+			buildPhases = (
+				8FD70C74332A80252D1F0FEF195B2FCF /* Sources */,
+				89AC134B0EB56D99A45626F5E8D1FD9B /* Frameworks */,
+				37BEE9F22A93C35BDA26E3136F804BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LBNCoreDataStack-LBNCoreDataStack";
+			productName = "LBNCoreDataStack-LBNCoreDataStack";
+			productReference = AE67C584F519B6D0C7D53E729A57C5F3 /* LBNCoreDataStack.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		964A77D0542564F4CEFA939F5384D956 /* LBNCoreDataStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD32BB143F1F8490AC9AB187AD6C18D /* Build configuration list for PBXNativeTarget "LBNCoreDataStack" */;
+			buildPhases = (
+				E7F57328748E785F6EB83B0FE4DC192D /* Sources */,
+				25DB2CABED0AC1EDFFBE24130DF3AAA6 /* Frameworks */,
+				914A8B6C7B490D1E679C232A1FABC876 /* Resources */,
+				035AE190E610E164E0EBBE5E8B6D6C24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002261D84EDA436259B0A3E80C73101C /* PBXTargetDependency */,
+			);
+			name = LBNCoreDataStack;
+			productName = LBNCoreDataStack;
+			productReference = B42FACB6A37E964CDE746DF2068C0524 /* LBNCoreDataStack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		9B19AD4358A8BBD486B9185CD8A8C27E /* Pods-LBNCoreDataStack_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C1C616BABD8AF6A0B4446A69377515A /* Build configuration list for PBXNativeTarget "Pods-LBNCoreDataStack_Tests" */;
@@ -248,42 +277,6 @@
 			productReference = 805FF248AF6B48745D408F26510ECCE7 /* Pods_LBNCoreDataStack_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A63D538A22FE3D416FDD50231F7F6FF3 /* LBNCoreDataStack */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7B7A9235A4269F07E53289CC190DCBF /* Build configuration list for PBXNativeTarget "LBNCoreDataStack" */;
-			buildPhases = (
-				C8E1FD9112A1BC47754F93E8FEA7E846 /* Sources */,
-				79779BB85884875C753B2BF7C19AB032 /* Frameworks */,
-				42AD3EF53A65198E2FA82D681C76F92F /* Resources */,
-				FD6C9BBF917FF5BF31FA3A6DFD878607 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6F6FBDEC9275F1547FE6B45C26819E7D /* PBXTargetDependency */,
-			);
-			name = LBNCoreDataStack;
-			productName = LBNCoreDataStack;
-			productReference = B42FACB6A37E964CDE746DF2068C0524 /* LBNCoreDataStack.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CBCFA7F3C959DD308C9518B089991621 /* LBNCoreDataStack-LBNCoreDataStack */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F5E413EA79C982EA3165C28E5195E4F /* Build configuration list for PBXNativeTarget "LBNCoreDataStack-LBNCoreDataStack" */;
-			buildPhases = (
-				0CA63116D68D38FAD5378146BAC3FF9B /* Sources */,
-				373F3FB98A8C626886EE4F3D0249D623 /* Frameworks */,
-				34D657A59129D62E949B3135D67E3B64 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "LBNCoreDataStack-LBNCoreDataStack";
-			productName = "LBNCoreDataStack-LBNCoreDataStack";
-			productReference = AE67C584F519B6D0C7D53E729A57C5F3 /* LBNCoreDataStack.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -291,7 +284,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -305,46 +298,36 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A63D538A22FE3D416FDD50231F7F6FF3 /* LBNCoreDataStack */,
-				CBCFA7F3C959DD308C9518B089991621 /* LBNCoreDataStack-LBNCoreDataStack */,
+				964A77D0542564F4CEFA939F5384D956 /* LBNCoreDataStack */,
+				3A29CE4CB3DC808A3948BFD12921D0E5 /* LBNCoreDataStack-LBNCoreDataStack */,
 				9B19AD4358A8BBD486B9185CD8A8C27E /* Pods-LBNCoreDataStack_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		34D657A59129D62E949B3135D67E3B64 /* Resources */ = {
+		37BEE9F22A93C35BDA26E3136F804BB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42AD3EF53A65198E2FA82D681C76F92F /* Resources */ = {
+		914A8B6C7B490D1E679C232A1FABC876 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02C16E68B09F1D9A50F8E88BF08D9B82 /* LBNCoreDataStack.bundle in Resources */,
+				29F219BAFE70EA9348520B751D185B7F /* LBNCoreDataStack.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0CA63116D68D38FAD5378146BAC3FF9B /* Sources */ = {
+		8FD70C74332A80252D1F0FEF195B2FCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8E1FD9112A1BC47754F93E8FEA7E846 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AFE49445B7BEDD5923F6C81C3FBF0C3D /* LBNCoreDataStack-dummy.m in Sources */,
-				901F0BF2B2ACBC2061FE9DD81054DB23 /* LBNCoreDataStack.m in Sources */,
-				6A4EB662A48FFBF17C7F657BD8273A59 /* LBNPersistence.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,19 +339,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7F57328748E785F6EB83B0FE4DC192D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C0C1919F1BC4180ED8AF8F8DE6B71B /* LBNCoreDataStack-dummy.m in Sources */,
+				BE6864B41BD586ED001DC266 /* LBNCoreDataStack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6F6FBDEC9275F1547FE6B45C26819E7D /* PBXTargetDependency */ = {
+		002261D84EDA436259B0A3E80C73101C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "LBNCoreDataStack-LBNCoreDataStack";
-			target = CBCFA7F3C959DD308C9518B089991621 /* LBNCoreDataStack-LBNCoreDataStack */;
-			targetProxy = 51A685C33F4A4905D5F4389AA065DB63 /* PBXContainerItemProxy */;
+			target = 3A29CE4CB3DC808A3948BFD12921D0E5 /* LBNCoreDataStack-LBNCoreDataStack */;
+			targetProxy = E7B4245A90E5D93E8718279DE31B8A62 /* PBXContainerItemProxy */;
 		};
 		73EFD303D7E7BFBDB0AA12BCB85A15AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LBNCoreDataStack;
-			target = A63D538A22FE3D416FDD50231F7F6FF3 /* LBNCoreDataStack */;
+			target = 964A77D0542564F4CEFA939F5384D956 /* LBNCoreDataStack */;
 			targetProxy = 7FFD2F08BFF810ECF1830E468CF886C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,7 +418,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -469,7 +460,6 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_LBNCoreDataStack_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -479,7 +469,7 @@
 			};
 			name = Release;
 		};
-		5CFEC8CB8F2D456D236C266B0FCAD199 /* Release */ = {
+		533CFF95972AFE7B72819009DCC92B0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33722AAD20DF4490F0AEF6B402B94172 /* LBNCoreDataStack.xcconfig */;
 			buildSettings = {
@@ -496,8 +486,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LBNCoreDataStack/LBNCoreDataStack.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = LBNCoreDataStack;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -505,7 +494,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		63A2EE0D6BF9EF556B0AF85BD4F0076B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -528,7 +517,6 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_LBNCoreDataStack_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -538,19 +526,7 @@
 			};
 			name = Debug;
 		};
-		73D683AAB769B3343A590C4D46A33B14 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33722AAD20DF4490F0AEF6B402B94172 /* LBNCoreDataStack.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LBNCoreDataStack;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		913AA93C28BFBDCA4BBE55969EF8381D /* Debug */ = {
+		C2BA178619678C8CC5215F03D99C2769 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33722AAD20DF4490F0AEF6B402B94172 /* LBNCoreDataStack.xcconfig */;
 			buildSettings = {
@@ -567,8 +543,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LBNCoreDataStack/LBNCoreDataStack.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = LBNCoreDataStack;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -576,9 +551,21 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		D50685B1E53D9B948DF56BDC53875F8F /* Debug */ = {
+		DE1FDD609101D469B0DDABC331A013D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33722AAD20DF4490F0AEF6B402B94172 /* LBNCoreDataStack.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LBNCoreDataStack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F495141C7A568998914218A71B76C76B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33722AAD20DF4490F0AEF6B402B94172 /* LBNCoreDataStack.xcconfig */;
 			buildSettings = {
@@ -593,15 +580,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F5E413EA79C982EA3165C28E5195E4F /* Build configuration list for PBXNativeTarget "LBNCoreDataStack-LBNCoreDataStack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D50685B1E53D9B948DF56BDC53875F8F /* Debug */,
-				73D683AAB769B3343A590C4D46A33B14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -620,11 +598,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7B7A9235A4269F07E53289CC190DCBF /* Build configuration list for PBXNativeTarget "LBNCoreDataStack" */ = {
+		9299AF262339DC1A4EF6BC0296221E05 /* Build configuration list for PBXNativeTarget "LBNCoreDataStack-LBNCoreDataStack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				913AA93C28BFBDCA4BBE55969EF8381D /* Debug */,
-				5CFEC8CB8F2D456D236C266B0FCAD199 /* Release */,
+				F495141C7A568998914218A71B76C76B /* Debug */,
+				DE1FDD609101D469B0DDABC331A013D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD32BB143F1F8490AC9AB187AD6C18D /* Build configuration list for PBXNativeTarget "LBNCoreDataStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533CFF95972AFE7B72819009DCC92B0A /* Debug */,
+				C2BA178619678C8CC5215F03D99C2769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,19 +1,19 @@
 {
   "name": "LBNCoreDataStack",
   "version": "0.1.0",
-  "summary": "A short description of LBNCoreDataStack.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/LBNCoreDataStack",
+  "summary": "Substitute Core Data methods from AppDelegate and encapsulates it in its own class. This class is accessible as a singleton from sharedStack method.\nAlso available a persistence class to handle most of the more common operetions as insert and delete from CoreData.",
+  "description": "With this lib you can remove all the Core Data template methods from your AppDelegate and use this lib as a singleton to access those methods from anywhere in your project in a neat way.",
+  "homepage": "https://github.com/sciasxp/LBNCoreDataStack",
   "license": "MIT",
   "authors": {
     "Luciano Bastos Nunes": "sciasxp@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/LBNCoreDataStack.git",
+    "git": "https://github.com/sciasxp/LBNCoreDataStack.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "7.1"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",

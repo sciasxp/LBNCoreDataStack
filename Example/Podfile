@@ -4,6 +4,5 @@ use_frameworks!
 
 target 'LBNCoreDataStack_Tests', :exclusive => true do
   pod "LBNCoreDataStack", :path => "../"
-
   
 end
