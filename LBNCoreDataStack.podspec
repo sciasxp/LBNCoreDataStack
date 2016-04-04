@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LBNCoreDataStack"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Remove all Core Data template methods from AppDelegate and use this to access those methods from anywhere in your project in a neat way."
 
 # This description is used to generate tags and improve search results.

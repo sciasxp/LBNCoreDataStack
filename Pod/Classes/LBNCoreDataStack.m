@@ -11,14 +11,34 @@
 
 + (instancetype)defaultStack
 {
-    static LBNCoreDataStack *defaultStack;
+    static id defaultStack;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         
-        defaultStack = [[self alloc] init];
+        defaultStack = [[self alloc] initCommon];
     });
     
     return defaultStack;
+}
+
+#pragma mark - Designeted Initializer
+
+- (instancetype)initCommon {
+    
+    self = [super init];
+    
+    if (self) {
+        
+    }
+    
+    return self;
+}
+
+- (instancetype)init {
+    
+    NSAssert(NO, @"LBNCoreDataStack does not support init. Use defaultStack instead.");
+    
+    return nil;
 }
 
 #pragma mark - Core Data stack
