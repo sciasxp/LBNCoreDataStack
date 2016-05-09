@@ -146,9 +146,11 @@
     
     NSManagedObjectContext *context = [[LBNCoreDataStack defaultStack] managedObjectContext];
     [context deleteObject:object];
+    
+    [self save];
 }
 
-- (void)clearEntity:(NSString *)entity {
+- (void)clearEntity:(NSString *)entity Save:(BOOL)save {
     
     NSManagedObjectContext *context = [[LBNCoreDataStack defaultStack] managedObjectContext];
     
@@ -158,6 +160,11 @@
         
         [context deleteObject:obj];
     }];
+    
+    if (save) {
+        
+        [self save];
+    }
 }
 
 - (void)clearDB:(void (^)(void))block {
@@ -168,8 +175,10 @@
         
         NSString *key = obj;
         
-        [self clearEntity:key];
+        [self clearEntity:key Save:NO];
     }];
+    
+    [self save];
     
     if (block) {
         
@@ -234,7 +243,7 @@
             }
             
             [result addObject:entity];
-
+            
         } else {
             
             NSLog(@"NO ENTITY");
@@ -259,7 +268,7 @@
 {
     __block NSMutableArray *compoundPredicateArray = [[NSMutableArray alloc] init];
     [attributes enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-
+        
         NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K = %@", obj, values[idx]];
         [compoundPredicateArray addObject:predicate];
     }];
@@ -272,14 +281,14 @@
 }
 
 /*
-- (id)fetchForAttribute:(NSString *)attribute withValue:(NSString *)value ForEntityName:(NSString *)entityName
-{
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", attribute, value];
-    NSArray *fetchedObjects = [self fetchWithPredicate:predicate EntityName:entityName SortDescriptors:nil];
-    
-    return [fetchedObjects firstObject];
-}
-*/
+ - (id)fetchForAttribute:(NSString *)attribute withValue:(NSString *)value ForEntityName:(NSString *)entityName
+ {
+ NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", attribute, value];
+ NSArray *fetchedObjects = [self fetchWithPredicate:predicate EntityName:entityName SortDescriptors:nil];
+ 
+ return [fetchedObjects firstObject];
+ }
+ */
 
 - (NSArray *)fetchWithPredicate:(NSPredicate *)predicate EntityName:(NSString *)entityName SortDescriptors:(NSArray *)sortDescriptors {
     

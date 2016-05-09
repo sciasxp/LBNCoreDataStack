@@ -82,18 +82,19 @@ and use those methods:
 - (void)removeObject:(id)object
 ```
 ##### Summary
-This method will delete an object with Entity the type of your Entity from its Entity.
+This method will delete an object of your Entity and will save your context to disk.
 ##### Parameter
 - **object**: Its the entity object you want to remove from your Entity.
 
 #### clearEntity
 ```objective-c
-- (void)clearEntity:(NSString *)entity
+- (void)clearEntity:(NSString *)entity Save:(BOOL)save
 ```
 ##### Summary
 This method will delete all objects from a given Entity.
 ##### Parameter
 - **entity**: The Entity name you want to clear.
+- **save**: Boolean to define if after the objects of your entity are deleted the context will be saved on disk. If the conext is not saved yours changes will have no effect next time you enter your app. This has the same effect as call save method afeter clearEntity.
 
 #### clearDB
 ```objective-c

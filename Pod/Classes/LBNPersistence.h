@@ -28,7 +28,7 @@ typedef id(^ DMOperation)(id);
 
 - (void)removeObject:(id)object;
 
-- (void)clearEntity:(NSString *)entity;
+- (void)clearEntity:(NSString *)entity Save:(BOOL)save;
 
 - (void)clearDB:(void (^)(void))block;
 
